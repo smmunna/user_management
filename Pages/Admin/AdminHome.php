@@ -56,9 +56,9 @@ $result = mysqli_query($conn, $sql);
                         <td><?php echo $row['name']; ?></td>
                         <td><?php echo $row['email']; ?></td>
                         <td><?php echo $row['age']; ?></td>
-                        <td><button class="btn btn-info">View</button></td>
+                        <td><a href="http://localhost/user_management/Pages/Admin/viewUser.php?id=<?php echo $row['id']; ?>"><button class="btn btn-info">View</button></a></td>
                         <td><button class="btn btn-success">Update</button></td>
-                        <td><button class="btn btn-danger">X</button></td>
+                        <td><a href="http://localhost/user_management/Pages/Admin/deleteUser.php?id=<?php echo $row['id']; ?>"><button class="btn btn-danger" onclick="confirmDelete(event)">X</button></a></td>
                     </tr>
 
                 <?php
@@ -82,3 +82,19 @@ $result = mysqli_query($conn, $sql);
 </body>
 
 </html>
+
+
+
+<script>
+    function confirmDelete(event) {
+        event.preventDefault();
+
+        if (confirm("Are you sure you want to delete this user?")) {
+            // User confirmed, proceed to the delete page
+            const deleteUrl = event.target.parentElement.href; // Get the delete page URL
+            window.location.href = deleteUrl;
+        } else {
+            // User canceled, do nothing
+        }
+    }
+</script>

@@ -8,6 +8,8 @@
     Submit Form: http://localhost/user_management/Pages/user/submitForm.php
     UserLogout: http://localhost/user_management/Pages/user/userLogout.php
     Admin Home: http://localhost/user_management/Pages/Admin/AdminHome.php
+    View User: http://localhost/user_management/Pages/Admin/viewUser.php
+    Delete User: http://localhost/user_management/Pages/Admin/deleteUser.php
 
 
 

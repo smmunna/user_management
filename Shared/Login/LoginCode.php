@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $_SESSION['password'] = $password;
             header("Location:http://localhost/user_management/Pages/Admin/AdminHome.php");
         } else {
-            echo '<script>alert("Invalid Username or Password");</script>';
+            // echo '<script>alert("Invalid Username or Password");</script>';
             header("refresh:0; URL=http://localhost/user_management/index.php");
         }
 
