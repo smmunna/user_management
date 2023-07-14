@@ -21,7 +21,7 @@ if (empty($_SESSION['email'])) {
 
 <body>
 
-    <div class="bg-black text-danger fixed-top py-2" style="color: white;">
+    <div class="bg-black text-danger fixed-top py-2 mb-2" style="color: white;">
         <?php include('userNavbar.php') ?>
     </div>
 

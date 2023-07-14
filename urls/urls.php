@@ -7,6 +7,7 @@
     User Form : http://localhost/user_management/Pages/user/userForm.php
     Submit Form: http://localhost/user_management/Pages/user/submitForm.php
     UserLogout: http://localhost/user_management/Pages/user/userLogout.php
+    Admin Home: http://localhost/user_management/Pages/Admin/AdminHome.php
 
 
 
