@@ -24,22 +24,3 @@
         <button type="submit" id="submit" class="btn btn-primary">Sign in</button>
     </form>
 </div>
-
-
-<script>
-    // document.getElementById('submit').addEventListener(("click"), (event) => {
-    //     event.preventDefault()
-    //     const passwordValidate = document.getElementById('inputPassword3').value;
-
-    //     if (passwordValidate.length < 3) {
-    //         document.getElementById('error-message').innerHTML = "Password length Must be 3 characters long...";
-    //         return
-    //     } else if (passwordValidate.search(/[a-z]/i) < 0) {
-    //         document.getElementById('error-message').innerHTML = "At least containing one lowercase alphabet...";
-    //         return
-    //     } else {
-    //         document.getElementById('error-message').innerHTML = "";
-    //         // window.location.href = "http://localhost/user_management/Shared/Login/LoginCode.php";
-    //     }
-    // })
-</script>
