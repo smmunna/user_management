@@ -21,11 +21,11 @@ if (empty($_SESSION['email'])) {
 
 <body>
 
-    <div class="bg-black text-danger fixed-top py-2 mb-2" style="color: white;">
+    <div class="bg-black text-danger fixed-top py-3 mb-2" style="color: white;">
         <?php include('userNavbar.php') ?>
     </div>
 
-    <div class="d-flex justify-content-center pt-4">
+    <div class="d-flex justify-content-center mt-4 pt-4">
         <form action="http://localhost/user_management/Pages/user/submitForm.php" method="POST">
             <div class="mt-5">
                 <h3>Add your Details</h3>
@@ -53,6 +53,13 @@ if (empty($_SESSION['email'])) {
 
             <button type="submit" id="submit" class="btn btn-primary">Submit Form</button>
         </form>
+    </div>
+
+
+    <div class="bg-black py-2 fixed-bottom">
+        <?php
+        include('userFooter.php');
+        ?>
     </div>
 
 
