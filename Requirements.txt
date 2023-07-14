@@ -1,0 +1,7 @@
+-------------------REQUIREMENTS------------------
+
+1. Log In form thakbe 
+2. User er jonno 1ta Page thakbe oi khane 1ta Form thakbe Form submit korte parbe.
+3.  Admin Page thakbe je khane Admin user er Data update, Delete, Individual user View korte parbe.
+
+4. Database : mysql
