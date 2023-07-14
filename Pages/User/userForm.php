@@ -1,3 +1,13 @@
+<?php
+
+session_start();
+// $recv = $_REQUEST['email'];
+$email = $_SESSION['email'];
+if (empty($_SESSION['email'])) {
+    header("Location:http://localhost/user_management/index.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

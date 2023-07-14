@@ -12,8 +12,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mysqlinumrows = mysqli_num_rows($result);
 
         if ($mysqlinumrows) {
-            $_SESSION['email'] = $customer_email;
-            $_SESSION['password'] = $customer_password;
+            $_SESSION['email'] = $email;
+            $_SESSION['password'] = $password;
             header("Location:http://localhost/user_management/Pages/user/userForm.php");
         } else {
             echo '<script>alert("Invalid Username or Password");</script>';

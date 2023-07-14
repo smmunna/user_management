@@ -6,7 +6,8 @@
     DB URL : http://localhost/user_management/db/connection.php
     User Form : http://localhost/user_management/Pages/user/userForm.php
     Submit Form: http://localhost/user_management/Pages/user/submitForm.php
-    
+    UserLogout: http://localhost/user_management/Pages/user/userLogout.php
+
 
 
  -->
