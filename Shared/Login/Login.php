@@ -4,7 +4,7 @@
 <div class="d-flex justify-content-center">
     <form action="http://localhost/user_management/Shared/Login/LoginCode.php" method="POST">
         <div class="mt-5">
-            <h3>User Login</h3>
+            <h3>Verify your Login</h3>
             <hr>
         </div>
         <p class="fs-6 fw-bold " style="color: red;" id="error-message"></p>
