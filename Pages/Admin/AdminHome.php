@@ -57,7 +57,7 @@ $result = mysqli_query($conn, $sql);
                         <td><?php echo $row['email']; ?></td>
                         <td><?php echo $row['age']; ?></td>
                         <td><a href="http://localhost/user_management/Pages/Admin/viewUser.php?id=<?php echo $row['id']; ?>"><button class="btn btn-info">View</button></a></td>
-                        <td><button class="btn btn-success">Update</button></td>
+                        <td><a href="http://localhost/user_management/Pages/Admin/viewUser1.php?id=<?php echo $row['id']; ?>"><button class="btn btn-success">Update</button></a></td>
                         <td><a href="http://localhost/user_management/Pages/Admin/deleteUser.php?id=<?php echo $row['id']; ?>"><button class="btn btn-danger" onclick="confirmDelete(event)">X</button></a></td>
                     </tr>
 

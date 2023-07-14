@@ -9,7 +9,9 @@
     UserLogout: http://localhost/user_management/Pages/user/userLogout.php
     Admin Home: http://localhost/user_management/Pages/Admin/AdminHome.php
     View User: http://localhost/user_management/Pages/Admin/viewUser.php
+    View User1: http://localhost/user_management/Pages/Admin/viewUser1.php
     Delete User: http://localhost/user_management/Pages/Admin/deleteUser.php
+    Update User: http://localhost/user_management/Pages/Admin/updateUser.php
 
 
 
