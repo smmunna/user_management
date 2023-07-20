@@ -20,7 +20,18 @@
                 <input type="text" name="password" class="form-control" id="inputPassword3" placeholder="Enter your password">
             </div>
         </div>
-
+        <div class="d-flex gap-3 mb-3">
+            <div>
+                <input type="radio" id="html" name="userroles" value="user">
+                <label for="html">user</label>
+            </div>
+            <div>
+                <input type="radio" id="html" name="userroles" value="admin">
+                <label for="html">admin</label>
+            </div>
+        </div>
+        <div>
         <button type="submit" id="submit" class="btn btn-primary">Sign in</button>
+        </div>
     </form>
 </div>
