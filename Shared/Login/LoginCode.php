@@ -40,6 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Redirect to a different page after processing the form
         exit();
     } else {
-        echo 'No data found here...';
+        echo '<script>alert("Invalid Username or Password ");</script>';
+        header("refresh:0; URL=http://localhost/user_management/index.php");
     }
 }

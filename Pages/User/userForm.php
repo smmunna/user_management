@@ -25,7 +25,11 @@ if (empty($_SESSION['email'])) {
         <?php include('userNavbar.php') ?>
     </div>
 
-    <div class="d-flex justify-content-center mt-4 pt-4">
+    <div style="margin-top: 5%;">
+        <?php include 'FormList.php'; ?>
+    </div>
+
+    <div class="d-flex justify-content-center mt-1 pt-1">
         <form action="http://localhost/user_management/Pages/user/submitForm.php" method="POST">
             <div class="mt-5">
                 <h3>Add your Details</h3>
