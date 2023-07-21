@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 echo '<script>alert("Invalid Username or Password ");</script>';
                 header("refresh:0; URL=http://localhost/user_management/index.php");
             }
-        } else {
+        } else if ($userroles == 'admin') {
 
             $sql1 = "SELECT * FROM `user_info` WHERE `email`='$email' AND `password`='$password' AND `roles`='admin'";
             $result1 = mysqli_query($conn, $sql1);
@@ -32,9 +32,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $_SESSION['password'] = $password;
                 header("Location:http://localhost/user_management/pages/Home/Home.php");
             } else {
-                // echo '<script>alert("Invalid Username or Password");</script>';
+                echo '<script>alert("Invalid Username or Password");</script>';
                 header("refresh:0; URL=http://localhost/user_management/index.php");
             }
+        }
+
+        else{
+            echo '<script>alert("Something went wrong");</script>';
+            header("refresh:0; URL=http://localhost/user_management/index.php");
         }
 
         // Redirect to a different page after processing the form

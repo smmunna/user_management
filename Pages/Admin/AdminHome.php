@@ -42,6 +42,7 @@ $result = mysqli_query($conn, $sql);
                     <th>Id</th>
                     <th>Name</th>
                     <th>Email</th>
+                    <th>Status</th>
                     <th>Age</th>
                     <th colspan="3" style="text-align: center;">Operation </th>
 
@@ -55,6 +56,7 @@ $result = mysqli_query($conn, $sql);
                         <td><?php echo $row['id']; ?></td>
                         <td><?php echo $row['name']; ?></td>
                         <td><?php echo $row['email']; ?></td>
+                        <td><?php echo $row['status']; ?></td>
                         <td><?php echo $row['age']; ?></td>
                         <td><a href="http://localhost/user_management/Pages/Admin/viewUser.php?id=<?php echo $row['id']; ?>"><button class="btn btn-info">View</button></a></td>
                         <td><a href="http://localhost/user_management/Pages/Admin/viewUser1.php?id=<?php echo $row['id']; ?>"><button class="btn btn-success">Update</button></a></td>

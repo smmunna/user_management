@@ -45,6 +45,15 @@ while ($row = mysqli_fetch_assoc($result)) {
             </div>
         </div>
 
+        <div class="d-flex justify-content-center mt-2 gap-2">
+            <div style="background-color: green; padding:12px;">
+                <a href="http://localhost/user_management/Pages/Admin/acceptUser.php?id=<?php echo $recv; ?>" style="color:white">Accepted</a>
+            </div>
+            <div style="background-color: brown; padding:12px;">
+                <a href="http://localhost/user_management/Pages/Admin/deleteUser.php?id=<?php echo $recv; ?>" style="color:white">Rejected</a>
+            </div>
+        </div>
+
     <?php
 }
     ?>
