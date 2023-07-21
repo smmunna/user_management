@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 14, 2023 at 07:56 PM
+-- Generation Time: Jul 21, 2023 at 05:01 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -31,16 +31,17 @@ CREATE TABLE `user_details` (
   `name` varchar(20) NOT NULL,
   `email` varchar(30) NOT NULL,
   `age` int(10) NOT NULL,
-  `id` int(10) NOT NULL
+  `id` int(10) NOT NULL,
+  `status` varchar(10) NOT NULL DEFAULT 'pending'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `user_details`
 --
 
-INSERT INTO `user_details` (`name`, `email`, `age`, `id`) VALUES
-('Sm. Munna', 'minhazulabedinmunna@gmail.com', 23, 1),
-('Minhazul Munna', '20103019@iubat.edu', 19, 2);
+INSERT INTO `user_details` (`name`, `email`, `age`, `id`, `status`) VALUES
+('sm. munna', 'munna@gmail.com', 23, 1, 'pending'),
+('Sm Munna', '20103019@iubat.edu', 22, 6, 'pending');
 
 -- --------------------------------------------------------
 
@@ -88,7 +89,7 @@ ALTER TABLE `user_info`
 -- AUTO_INCREMENT for table `user_details`
 --
 ALTER TABLE `user_details`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `user_info`
