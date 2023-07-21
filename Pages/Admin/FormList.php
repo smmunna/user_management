@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div class="d-flex gap-2 justify-content-center">
+    <div class="d-flex gap-2 justify-content-center" style="margin-top:8%">
         <a href="http://localhost/user_management/Pages/Admin/AdminHome.php">
             <div style="background-color: antiquewhite; padding: 12px;">
                 <p>Form 1</p>
@@ -16,37 +16,37 @@
         </a>
         <a href="#">
             <div style="background-color: antiquewhite; padding: 12px;">
-                <p>Form 1</p>
+                <p>Form 2</p>
             </div>
         </a>
         <a href="#">
             <div style="background-color: antiquewhite; padding: 12px;">
-                <p>Form 1</p>
+                <p>Form 3</p>
             </div>
         </a>
         <a href="#">
             <div style="background-color: antiquewhite; padding: 12px;">
-                <p>Form 1</p>
+                <p>Form 4</p>
             </div>
         </a>
         <a href="#">
             <div style="background-color: antiquewhite; padding: 12px;">
-                <p>Form 1</p>
+                <p>Form 5</p>
             </div>
         </a>
         <a href="#">
             <div style="background-color: antiquewhite; padding: 12px;">
-                <p>Form 1</p>
+                <p>Form 6</p>
             </div>
         </a>
         <a href="#">
             <div style="background-color: antiquewhite; padding: 12px;">
-                <p>Form 1</p>
+                <p>Form 7</p>
             </div>
         </a>
         <a href="#">
             <div style="background-color: antiquewhite; padding: 12px;">
-                <p>Form 1</p>
+                <p>Form </p>
             </div>
         </a>
 

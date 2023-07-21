@@ -23,8 +23,7 @@ if (empty($_SESSION['email'])) {
         include('adminNavbar.php');
         ?>
     </div>
-
-    <div style="margin-top: 5%;">
+    <div>
         <?php include 'FormList.php'; ?>
     </div>
 
