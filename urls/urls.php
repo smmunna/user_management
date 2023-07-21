@@ -13,6 +13,7 @@
     Delete User: http://localhost/user_management/Pages/Admin/deleteUser.php
     Update User: http://localhost/user_management/Pages/Admin/updateUser.php
     Home Page : http://localhost/user_management/pages/Home/Home.php
+    Admin Home Page : http://localhost/user_management/pages/Admin/Home.php
     Accept User: http://localhost/user_management/Pages/Admin/acceptUser.php
 
 

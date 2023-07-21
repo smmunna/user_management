@@ -30,14 +30,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             if ($mysqlinumrows1) {
                 $_SESSION['email'] = $email;
                 $_SESSION['password'] = $password;
-                header("Location:http://localhost/user_management/pages/Home/Home.php");
+                header("Location:http://localhost/user_management/pages/Admin/Home.php");
             } else {
                 echo '<script>alert("Invalid Username or Password");</script>';
                 header("refresh:0; URL=http://localhost/user_management/index.php");
             }
-        }
-
-        else{
+        } else {
             echo '<script>alert("Something went wrong");</script>';
             header("refresh:0; URL=http://localhost/user_management/index.php");
         }
