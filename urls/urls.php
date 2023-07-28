@@ -15,6 +15,7 @@
     Home Page : http://localhost/user_management/pages/Home/Home.php
     Admin Home Page : http://localhost/user_management/pages/Admin/Home.php
     Accept User: http://localhost/user_management/Pages/Admin/acceptUser.php
+    User Form2 : http://localhost/user_management/Pages/user/Form2.php
 
 
 

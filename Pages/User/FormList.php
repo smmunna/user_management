@@ -9,44 +9,44 @@
 
 <body>
     <div class="d-flex gap-2 justify-content-center">
-        <a href="#">
+        <a href="http://localhost/user_management/Pages/user/userForm.php">
             <div style="background-color: antiquewhite; padding: 12px;">
                 <p>Form 1</p>
             </div>
         </a>
-        <a href="#">
+        <a href="http://localhost/user_management/Pages/user/Form2.php">
             <div style="background-color: antiquewhite; padding: 12px;">
-                <p>Form 1</p>
+                <p>Form 2</p>
+            </div>
+        </a>
+        <a href="http://localhost/user_management/Pages/user/Form3.php">
+            <div style="background-color: antiquewhite; padding: 12px;">
+                <p>Form 3</p>
             </div>
         </a>
         <a href="#">
             <div style="background-color: antiquewhite; padding: 12px;">
-                <p>Form 1</p>
+                <p>Form 4</p>
             </div>
         </a>
         <a href="#">
             <div style="background-color: antiquewhite; padding: 12px;">
-                <p>Form 1</p>
+                <p>Form 5</p>
             </div>
         </a>
         <a href="#">
             <div style="background-color: antiquewhite; padding: 12px;">
-                <p>Form 1</p>
+                <p>Form 6</p>
             </div>
         </a>
         <a href="#">
             <div style="background-color: antiquewhite; padding: 12px;">
-                <p>Form 1</p>
+                <p>Form 7</p>
             </div>
         </a>
         <a href="#">
             <div style="background-color: antiquewhite; padding: 12px;">
-                <p>Form 1</p>
-            </div>
-        </a>
-        <a href="#">
-            <div style="background-color: antiquewhite; padding: 12px;">
-                <p>Form 1</p>
+                <p>Form 8</p>
             </div>
         </a>
 
