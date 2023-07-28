@@ -14,6 +14,8 @@ user_management based on php where user can login and submit the form and admin 
 3. ![image](https://github.com/smmunna/user_management/assets/64527538/8363770c-ddae-4a7c-8eb9-4699da14b7c1)
 4. ![image](https://github.com/smmunna/user_management/assets/64527538/3c66f133-c15f-464c-bf37-70d43aa066b6)
 5. ![image](https://github.com/smmunna/user_management/assets/64527538/44eab88f-e07a-4c22-99fa-6a2de766e70d)
+6. After user login-> Form2 and Form3 ![image](https://github.com/smmunna/user_management/assets/64527538/68dec5ef-18f4-484f-8e83-596b9ade33e6)
+
 
 
 
