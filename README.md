@@ -9,10 +9,16 @@ user_management based on php where user can login and submit the form and admin 
    >Pass : 1234  <br>
 
 ### Output Images
-1. ![image](https://github.com/smmunna/user_management/assets/64527538/ce4c6107-317f-401a-a7eb-de41d6093a28)
-2. ![image](https://github.com/smmunna/user_management/assets/64527538/2c009329-8cc0-47f4-96de-5936d91c9261)
-3. ![image](https://github.com/smmunna/user_management/assets/64527538/8b836e07-669c-401f-a540-50e7a0bfbd60)
-4. ![image](https://github.com/smmunna/user_management/assets/64527538/8c9ee4bb-369e-49be-ad6d-82b63753675e)
+1. ![image](https://github.com/smmunna/user_management/assets/64527538/6effecd1-2208-4fee-8b8f-4b83de84e427)
+2. ![image](https://github.com/smmunna/user_management/assets/64527538/eb05886c-8b0a-4905-9516-9ab4ea0be017)
+3. ![image](https://github.com/smmunna/user_management/assets/64527538/8363770c-ddae-4a7c-8eb9-4699da14b7c1)
+4. ![image](https://github.com/smmunna/user_management/assets/64527538/3c66f133-c15f-464c-bf37-70d43aa066b6)
+5. ![image](https://github.com/smmunna/user_management/assets/64527538/44eab88f-e07a-4c22-99fa-6a2de766e70d)
+6. After user login-> Form2 and Form3 ![image](https://github.com/smmunna/user_management/assets/64527538/68dec5ef-18f4-484f-8e83-596b9ade33e6)
+
+
+
+
 
 
 
